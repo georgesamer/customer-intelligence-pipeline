@@ -1,0 +1,407 @@
+2026-03-14 17:35:28,810 - INFO - ============================================================
+2026-03-14 17:35:28,810 - INFO - INITIALIZING CUSTOMER PIPELINE
+2026-03-14 17:35:28,810 - INFO - ============================================================
+2026-03-14 17:35:28,810 - INFO - Pipeline initialized successfully
+2026-03-14 17:35:28,810 - INFO - 
+[1/3] LOADING CSV: data/customers.csv
+2026-03-14 17:35:28,810 - INFO - Loading CSV from: data/customers.csv
+2026-03-14 17:35:28,836 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 17:35:28,836 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 17:35:28,840 - INFO - 
+[2/3] CLEANING & TRANSFORMING
+2026-03-14 17:35:28,841 - INFO - Starting data cleaning process
+2026-03-14 17:35:28,841 - INFO - Initial shape: (36, 4)
+2026-03-14 17:35:28,842 - INFO - No missing values found
+2026-03-14 17:35:28,852 - INFO - Cleaning complete. Final shape: (36, 4)
+2026-03-14 17:35:28,852 - INFO - Starting feature engineering
+2026-03-14 17:35:28,852 - WARNING - Date column 'None' not found, defaulting to 0
+2026-03-14 17:35:28,852 - WARNING - Column mappings not configured for average features
+2026-03-14 17:35:28,852 - WARNING - total_spent not found, estimating LTV
+2026-03-14 17:35:28,852 - WARNING - total_purchases not found, using simulated values
+2026-03-14 17:35:28,859 - INFO - Built 9 features
+2026-03-14 17:35:28,861 - INFO - 
+[3/3] READY FOR AI ENGINE
+2026-03-14 17:35:28,861 - INFO - ============================================================
+2026-03-14 17:35:28,861 - INFO - PIPELINE COMPLETED SUCCESSFULLY
+2026-03-14 17:35:28,861 - INFO - ============================================================
+2026-03-14 17:40:59,736 - INFO - ============================================================
+2026-03-14 17:40:59,737 - INFO - INITIALIZING CUSTOMER PIPELINE
+2026-03-14 17:40:59,737 - INFO - ============================================================
+2026-03-14 17:40:59,738 - INFO - Pipeline initialized successfully
+2026-03-14 17:40:59,738 - INFO - 
+[1/3] LOADING CSV: data/customers.csv
+2026-03-14 17:40:59,738 - INFO - Loading CSV from: data/customers.csv
+2026-03-14 17:40:59,742 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 17:40:59,742 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 17:40:59,742 - INFO - 
+[2/3] CLEANING & TRANSFORMING
+2026-03-14 17:40:59,742 - INFO - Starting data cleaning process
+2026-03-14 17:40:59,742 - INFO - Initial shape: (36, 4)
+2026-03-14 17:40:59,742 - INFO - No missing values found
+2026-03-14 17:40:59,742 - INFO - Cleaning complete. Final shape: (36, 4)
+2026-03-14 17:42:08,693 - INFO - ============================================================
+2026-03-14 17:42:08,693 - INFO - INITIALIZING CUSTOMER PIPELINE
+2026-03-14 17:42:08,693 - INFO - ============================================================
+2026-03-14 17:42:08,693 - INFO - Pipeline initialized successfully
+2026-03-14 17:42:08,693 - INFO - 
+[1/3] LOADING CSV: data/customers.csv
+2026-03-14 17:42:08,693 - INFO - Loading CSV from: data/customers.csv
+2026-03-14 17:42:08,701 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 17:42:08,701 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 17:42:08,701 - INFO - 
+[2/3] CLEANING & TRANSFORMING
+2026-03-14 17:42:08,707 - INFO - Starting data cleaning process
+2026-03-14 17:42:08,707 - INFO - Initial shape: (36, 4)
+2026-03-14 17:42:08,709 - INFO - No missing values found
+2026-03-14 17:42:08,712 - INFO - Cleaning complete. Final shape: (36, 4)
+2026-03-14 17:42:08,712 - INFO - Starting feature engineering
+2026-03-14 17:42:08,712 - WARNING - Date column 'None' not found, defaulting to 0
+2026-03-14 17:42:08,712 - WARNING - Column mappings not configured for average features
+2026-03-14 17:42:08,717 - WARNING - total_spent not found, estimating LTV
+2026-03-14 17:42:08,719 - WARNING - total_purchases not found, using simulated values
+2026-03-14 17:42:08,720 - INFO - Built 9 features
+2026-03-14 17:42:08,723 - INFO - 
+[3/3] READY FOR AI ENGINE
+2026-03-14 17:42:08,724 - INFO - ============================================================
+2026-03-14 17:42:08,724 - INFO - PIPELINE COMPLETED SUCCESSFULLY
+2026-03-14 17:42:08,725 - INFO - ============================================================
+2026-03-14 17:44:15,182 - INFO - ============================================================
+2026-03-14 17:44:15,182 - INFO - INITIALIZING CUSTOMER PIPELINE
+2026-03-14 17:44:15,182 - INFO - ============================================================
+2026-03-14 17:44:15,182 - INFO - Pipeline initialized successfully
+2026-03-14 17:44:15,182 - INFO - 
+[1/3] LOADING CSV: data/customers.csv
+2026-03-14 17:44:15,182 - INFO - Loading CSV from: data/customers.csv
+2026-03-14 17:44:15,200 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 17:44:15,200 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 17:44:15,200 - INFO - 
+[2/3] CLEANING & TRANSFORMING
+2026-03-14 17:44:15,205 - INFO - Starting data cleaning process
+2026-03-14 17:44:15,205 - INFO - Initial shape: (36, 4)
+2026-03-14 17:44:15,205 - INFO - No missing values found
+2026-03-14 17:44:15,230 - INFO - Cleaning complete. Final shape: (36, 4)
+2026-03-14 17:44:15,233 - INFO - Starting feature engineering
+2026-03-14 17:44:15,233 - WARNING - Date column 'None' not found, defaulting to 0
+2026-03-14 17:47:53,400 - INFO - ============================================================
+2026-03-14 17:47:53,400 - INFO - INITIALIZING CUSTOMER PIPELINE
+2026-03-14 17:47:53,400 - INFO - ============================================================
+2026-03-14 17:47:53,400 - INFO - Pipeline initialized successfully
+2026-03-14 17:47:53,400 - INFO - 
+[1/3] LOADING CSV: data/customers.csv
+2026-03-14 17:47:53,404 - INFO - Loading CSV from: data/customers.csv
+2026-03-14 17:47:53,408 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 17:47:53,408 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 17:47:53,408 - INFO - 
+[2/3] CLEANING & TRANSFORMING
+2026-03-14 17:47:53,410 - INFO - Starting data cleaning process
+2026-03-14 17:47:53,411 - INFO - Initial shape: (36, 4)
+2026-03-14 17:47:53,411 - INFO - No missing values found
+2026-03-14 17:47:53,428 - INFO - Cleaning complete. Final shape: (36, 4)
+2026-03-14 17:47:53,430 - INFO - Starting feature engineering
+2026-03-14 17:47:53,430 - WARNING - Date column 'None' not found, defaulting to 0
+2026-03-14 17:47:53,436 - INFO - Added 'avg_purchase_amount' (mean: $219.97)
+2026-03-14 17:47:53,459 - INFO - Added value segments: {'High': 33, 'Medium': 3, 'Low': 0}
+2026-03-14 17:47:53,461 - INFO - Added 'purchase_frequency' (mean: 24.3)
+2026-03-14 17:47:53,461 - INFO - Built 10 features
+2026-03-14 17:47:53,461 - INFO - 
+[3/3] READY FOR AI ENGINE
+2026-03-14 17:47:53,461 - INFO - ============================================================
+2026-03-14 17:47:53,464 - INFO - PIPELINE COMPLETED SUCCESSFULLY
+2026-03-14 17:47:53,464 - INFO - ============================================================
+2026-03-14 17:53:46,246 - INFO - ============================================================
+2026-03-14 17:53:46,247 - INFO - INITIALIZING CUSTOMER PIPELINE
+2026-03-14 17:53:46,247 - INFO - ============================================================
+2026-03-14 17:53:46,247 - INFO - Pipeline initialized successfully
+2026-03-14 17:53:46,250 - INFO - 
+[1/3] LOADING CSV: data/customers.csv
+2026-03-14 17:53:46,250 - INFO - Loading CSV from: data/customers.csv
+2026-03-14 17:53:46,257 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 17:53:46,258 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 17:53:46,258 - INFO - 
+[2/3] CLEANING & TRANSFORMING
+2026-03-14 17:53:46,260 - INFO - Starting data cleaning process
+2026-03-14 17:53:46,260 - INFO - Initial shape: (36, 4)
+2026-03-14 17:53:46,262 - INFO - No missing values found
+2026-03-14 17:53:46,283 - INFO - Cleaning complete. Final shape: (36, 4)
+2026-03-14 17:53:46,283 - INFO - Starting feature engineering
+2026-03-14 17:53:46,283 - WARNING - Date column 'None' not found, defaulting to 0
+2026-03-14 17:53:46,289 - INFO - Added 'avg_purchase_amount' (mean: $219.97)
+2026-03-14 17:53:46,293 - INFO - Added value segments: {'High': 33, 'Medium': 3, 'Low': 0}
+2026-03-14 17:53:46,296 - INFO - Added 'purchase_frequency' (mean: 24.3)
+2026-03-14 17:53:46,296 - INFO - Built 10 features
+2026-03-14 17:53:46,305 - INFO - Saved features to: outputs/features_20260314_175346.csv
+2026-03-14 17:53:46,307 - INFO - 
+[3/3] READY FOR AI ENGINE
+2026-03-14 17:53:46,307 - INFO - ============================================================
+2026-03-14 17:53:46,313 - INFO - PIPELINE COMPLETED SUCCESSFULLY
+2026-03-14 17:53:46,313 - INFO - ============================================================
+2026-03-14 20:56:46,062 - INFO - ============================================================
+2026-03-14 20:56:46,062 - INFO - INITIALIZING CUSTOMER PIPELINE
+2026-03-14 20:56:46,062 - INFO - ============================================================
+2026-03-14 20:56:46,067 - INFO - Pipeline initialized successfully
+2026-03-14 20:56:46,067 - INFO - 
+[1/3] LOADING CSV: data/customers.csv
+2026-03-14 20:56:46,070 - INFO - Loading CSV from: data/customers.csv
+2026-03-14 20:56:46,090 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 20:56:46,090 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 20:56:46,090 - INFO - 
+[2/3] CLEANING & TRANSFORMING
+2026-03-14 20:56:46,094 - INFO - Starting data cleaning process
+2026-03-14 20:56:46,094 - INFO - Initial shape: (36, 4)
+2026-03-14 20:56:46,096 - INFO - No missing values found
+2026-03-14 20:56:46,113 - INFO - Cleaning complete. Final shape: (36, 4)
+2026-03-14 20:56:46,119 - INFO - Starting feature engineering
+2026-03-14 20:56:46,119 - WARNING - Date column 'None' not found, defaulting to 0
+2026-03-14 20:56:46,128 - INFO - Added 'avg_purchase_amount' (mean: $219.97)
+2026-03-14 20:56:46,133 - INFO - Added value segments: {'High': 33, 'Medium': 3, 'Low': 0}
+2026-03-14 20:56:46,136 - INFO - Added 'purchase_frequency' (mean: 24.3)
+2026-03-14 20:56:46,136 - INFO - Built 10 features
+2026-03-14 20:56:46,146 - INFO - Saved features to: outputs/features_20260314_205646.csv
+2026-03-14 20:56:46,159 - INFO - 
+[3/3] READY FOR AI ENGINE
+2026-03-14 20:56:46,162 - INFO - Training on features: ['age', 'total_purchases', 'total_spent', 'days_since_last_purchase', 'avg_purchase_amount', 'customer_lifetime_value', 'purchase_frequency']
+2026-03-14 20:56:50,683 - INFO - Best K: 4 (score: 0.3702)
+2026-03-14 20:56:50,685 - INFO - Training KMeans with K=4
+2026-03-14 20:56:50,758 - INFO - 
+--- Cluster Summary ---
+2026-03-14 20:56:50,763 - INFO - Cluster 0: 11 customers | avg_spent=1149 | avg_purchases=34.6
+2026-03-14 20:56:50,763 - INFO - Cluster 1: 9 customers | avg_spent=4111 | avg_purchases=35.1
+2026-03-14 20:56:50,763 - INFO - Cluster 2: 2 customers | avg_spent=1716 | avg_purchases=1.0
+2026-03-14 20:56:50,768 - INFO - Cluster 3: 14 customers | avg_spent=2267 | avg_purchases=12.6
+2026-03-14 20:56:50,774 - INFO - Model saved: ai_engine/models/kmeans_20260314_205650.pkl
+2026-03-14 20:56:50,774 - INFO - Scaler saved: ai_engine/models/scaler_20260314_205650.pkl
+2026-03-14 20:56:50,781 - INFO - ============================================================
+2026-03-14 20:56:50,781 - INFO - PIPELINE COMPLETED SUCCESSFULLY
+2026-03-14 20:56:50,781 - INFO - ============================================================
+2026-03-14 21:08:04,095 - INFO - ============================================================
+2026-03-14 21:08:04,097 - INFO - INITIALIZING CUSTOMER PIPELINE
+2026-03-14 21:08:04,097 - INFO - ============================================================
+2026-03-14 21:08:04,097 - INFO - Pipeline initialized successfully
+2026-03-14 21:08:04,097 - INFO - 
+[1/3] LOADING CSV: data/customers.csv
+2026-03-14 21:08:04,097 - INFO - Loading CSV from: data/customers.csv
+2026-03-14 21:08:04,114 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 21:08:04,114 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 21:08:04,114 - INFO - 
+[2/3] CLEANING & TRANSFORMING
+2026-03-14 21:08:04,119 - INFO - Starting data cleaning process
+2026-03-14 21:08:04,119 - INFO - Initial shape: (36, 4)
+2026-03-14 21:08:04,123 - INFO - No missing values found
+2026-03-14 21:08:04,148 - INFO - Cleaning complete. Final shape: (36, 4)
+2026-03-14 21:08:04,155 - INFO - Starting feature engineering
+2026-03-14 21:08:04,155 - WARNING - Date column 'None' not found, defaulting to 0
+2026-03-14 21:08:04,162 - INFO - Added 'avg_purchase_amount' (mean: $219.97)
+2026-03-14 21:08:04,167 - INFO - Added value segments: {'High': 33, 'Medium': 3, 'Low': 0}
+2026-03-14 21:08:04,177 - INFO - Added 'purchase_frequency' (mean: 24.3)
+2026-03-14 21:08:04,177 - INFO - Built 10 features
+2026-03-14 21:08:04,184 - INFO - Saved features to: outputs/features_20260314_210804.csv
+2026-03-14 21:08:04,199 - INFO - 
+[3/3] READY FOR AI ENGINE
+2026-03-14 21:08:04,203 - INFO - Training on features: ['age', 'total_purchases', 'total_spent', 'days_since_last_purchase', 'avg_purchase_amount', 'customer_lifetime_value', 'purchase_frequency']
+2026-03-14 21:08:07,705 - INFO - Best K: 4 (score: 0.3702)
+2026-03-14 21:08:07,705 - INFO - Training KMeans with K=4
+2026-03-14 21:08:07,798 - INFO - 
+--- Cluster Summary ---
+2026-03-14 21:08:07,798 - INFO - Cluster 0: 11 customers | avg_spent=1149 | avg_purchases=34.6
+2026-03-14 21:08:07,800 - INFO - Cluster 1: 9 customers | avg_spent=4111 | avg_purchases=35.1
+2026-03-14 21:08:07,800 - INFO - Cluster 2: 2 customers | avg_spent=1716 | avg_purchases=1.0
+2026-03-14 21:08:07,802 - INFO - Cluster 3: 14 customers | avg_spent=2267 | avg_purchases=12.6
+2026-03-14 21:08:07,812 - INFO - Model saved: ai_engine/models/kmeans_20260314_210807.pkl
+2026-03-14 21:08:07,812 - INFO - Scaler saved: ai_engine/models/scaler_20260314_210807.pkl
+2026-03-14 21:08:07,815 - INFO - Generating dashboard charts...
+2026-03-14 21:08:09,828 - INFO - Saved: outputs/charts/01_cluster_distribution.png
+2026-03-14 21:08:10,262 - INFO - Saved: outputs/charts/02_avg_spent_per_cluster.png
+2026-03-14 21:08:10,698 - INFO - Saved: outputs/charts/03_spending_distribution.png
+2026-03-14 21:08:11,253 - INFO - Saved: outputs/charts/04_scatter.png
+2026-03-14 21:08:12,233 - INFO - Saved: outputs/charts/00_dashboard.png
+2026-03-14 21:08:12,233 - INFO - All charts saved to: outputs/charts/
+2026-03-14 21:08:12,233 - INFO - ============================================================
+2026-03-14 21:08:12,233 - INFO - PIPELINE COMPLETED SUCCESSFULLY
+2026-03-14 21:08:12,233 - INFO - ============================================================
+2026-03-14 21:17:10,618 - INFO - ============================================================
+2026-03-14 21:17:10,618 - INFO - INITIALIZING CUSTOMER PIPELINE
+2026-03-14 21:17:10,618 - INFO - ============================================================
+2026-03-14 21:17:10,618 - INFO - Pipeline initialized successfully
+2026-03-14 21:17:10,618 - INFO - 
+[1/5] LOADING CSV: data/customers.csv
+2026-03-14 21:17:10,624 - INFO - Loading CSV from: data/customers.csv
+2026-03-14 21:17:10,626 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 21:17:10,626 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 21:17:10,633 - INFO - 
+[2/5] CLEANING & TRANSFORMING
+2026-03-14 21:17:10,634 - INFO - Starting data cleaning process
+2026-03-14 21:17:10,635 - INFO - Initial shape: (36, 4)
+2026-03-14 21:17:10,635 - INFO - No missing values found
+2026-03-14 21:17:10,645 - INFO - Cleaning complete. Final shape: (36, 4)
+2026-03-14 21:17:10,645 - INFO - Starting feature engineering
+2026-03-14 21:17:10,658 - WARNING - Date column 'None' not found, defaulting to 0
+2026-03-14 21:17:10,661 - INFO - Added 'avg_purchase_amount' (mean: $219.97)
+2026-03-14 21:17:10,669 - INFO - Added value segments: {'High': 33, 'Medium': 3, 'Low': 0}
+2026-03-14 21:17:10,669 - INFO - Added 'purchase_frequency' (mean: 24.3)
+2026-03-14 21:17:10,669 - INFO - Built 10 features
+2026-03-14 21:17:10,677 - INFO - Saved features to: outputs/features_20260314_211710.csv
+2026-03-14 21:17:10,692 - INFO - 
+[3/5] TRAINING MODEL
+2026-03-14 21:17:10,694 - INFO - Training on features: ['age', 'total_purchases', 'total_spent', 'days_since_last_purchase', 'avg_purchase_amount', 'customer_lifetime_value', 'purchase_frequency']
+2026-03-14 21:17:13,573 - INFO - Best K: 4 (score: 0.3702)
+2026-03-14 21:17:13,573 - INFO - Training KMeans with K=4
+2026-03-14 21:17:13,671 - INFO - 
+--- Cluster Summary ---
+2026-03-14 21:17:13,673 - INFO - Cluster 0: 11 customers | avg_spent=1149 | avg_purchases=34.6
+2026-03-14 21:17:13,675 - INFO - Cluster 1: 9 customers | avg_spent=4111 | avg_purchases=35.1
+2026-03-14 21:17:13,677 - INFO - Cluster 2: 2 customers | avg_spent=1716 | avg_purchases=1.0
+2026-03-14 21:17:13,680 - INFO - Cluster 3: 14 customers | avg_spent=2267 | avg_purchases=12.6
+2026-03-14 21:17:13,684 - INFO - Model saved: ai_engine/models/kmeans_20260314_211713.pkl
+2026-03-14 21:17:13,686 - INFO - Scaler saved: ai_engine/models/scaler_20260314_211713.pkl
+2026-03-14 21:17:13,689 - INFO - 
+[4/5] GENERATING CHARTS
+2026-03-14 21:17:13,689 - INFO - Generating dashboard charts...
+2026-03-14 21:17:14,162 - INFO - Saved: outputs/charts/01_cluster_distribution.png
+2026-03-14 21:17:14,514 - INFO - Saved: outputs/charts/02_avg_spent_per_cluster.png
+2026-03-14 21:17:14,945 - INFO - Saved: outputs/charts/03_spending_distribution.png
+2026-03-14 21:17:15,461 - INFO - Saved: outputs/charts/04_scatter.png
+2026-03-14 21:17:16,379 - INFO - Saved: outputs/charts/00_dashboard.png
+2026-03-14 21:17:16,379 - INFO - All charts saved to: outputs/charts/
+2026-03-14 21:17:16,379 - INFO - 
+[5/5] GETTING AI ADVICE
+2026-03-14 21:17:16,379 - INFO - Getting advice for 4 clusters...
+2026-03-14 21:17:16,379 - INFO - Asking Ollama about: Frequent low spenders...
+2026-03-14 21:18:18,530 - ERROR - Ollama request timed out
+2026-03-14 21:18:18,531 - WARNING - No advice received for Frequent low spenders
+2026-03-14 21:18:18,531 - INFO - Asking Ollama about: VIP...
+2026-03-14 21:18:55,272 - INFO - Got advice for VIP
+2026-03-14 21:18:55,272 - INFO - Asking Ollama about: At risk...
+2026-03-14 21:19:34,692 - INFO - Got advice for At risk
+2026-03-14 21:19:34,693 - INFO - Asking Ollama about: Middle tier...
+2026-03-14 21:20:15,900 - INFO - Got advice for Middle tier
+2026-03-14 21:28:59,406 - INFO - ============================================================
+2026-03-14 21:28:59,407 - INFO - INITIALIZING CUSTOMER PIPELINE
+2026-03-14 21:28:59,407 - INFO - ============================================================
+2026-03-14 21:28:59,409 - INFO - Pipeline initialized successfully
+2026-03-14 21:28:59,409 - INFO - 
+[1/5] LOADING CSV: data/customers.csv
+2026-03-14 21:28:59,410 - INFO - Loading CSV from: data/customers.csv
+2026-03-14 21:28:59,414 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 21:28:59,415 - INFO - Loaded 36 rows, 4 columns
+2026-03-14 21:28:59,416 - INFO - 
+[2/5] CLEANING & TRANSFORMING
+2026-03-14 21:28:59,416 - INFO - Starting data cleaning process
+2026-03-14 21:28:59,418 - INFO - Initial shape: (36, 4)
+2026-03-14 21:28:59,419 - INFO - No missing values found
+2026-03-14 21:28:59,438 - INFO - Cleaning complete. Final shape: (36, 4)
+2026-03-14 21:28:59,440 - INFO - Starting feature engineering
+2026-03-14 21:28:59,440 - WARNING - Date column 'None' not found, defaulting to 0
+2026-03-14 21:28:59,444 - INFO - Added 'avg_purchase_amount' (mean: $219.97)
+2026-03-14 21:28:59,449 - INFO - Added value segments: {'High': 33, 'Medium': 3, 'Low': 0}
+2026-03-14 21:28:59,453 - INFO - Added 'purchase_frequency' (mean: 24.3)
+2026-03-14 21:28:59,454 - INFO - Built 10 features
+2026-03-14 21:28:59,457 - INFO - Saved features to: outputs/features_20260314_212859.csv
+2026-03-14 21:28:59,468 - INFO - 
+[3/5] TRAINING MODEL
+2026-03-14 21:28:59,471 - INFO - Training on features: ['age', 'total_purchases', 'total_spent', 'days_since_last_purchase', 'avg_purchase_amount', 'customer_lifetime_value', 'purchase_frequency']
+2026-03-14 21:29:01,935 - INFO - K=2, silhouette score: 0.2837
+2026-03-14 21:29:02,133 - INFO - K=3, silhouette score: 0.3427
+2026-03-14 21:29:02,323 - INFO - K=4, silhouette score: 0.3702
+2026-03-14 21:29:02,496 - INFO - K=5, silhouette score: 0.3408
+2026-03-14 21:29:02,708 - INFO - K=6, silhouette score: 0.3428
+2026-03-14 21:29:02,710 - INFO - Best K: 4 (score: 0.3702)
+2026-03-14 21:29:02,710 - INFO - Training KMeans with K=4
+2026-03-14 21:29:02,830 - INFO - 
+--- Cluster Summary ---
+2026-03-14 21:29:02,832 - INFO - Cluster 0: 11 customers | avg_spent=1149 | avg_purchases=34.6
+2026-03-14 21:29:02,834 - INFO - Cluster 1: 9 customers | avg_spent=4111 | avg_purchases=35.1
+2026-03-14 21:29:02,835 - INFO - Cluster 2: 2 customers | avg_spent=1716 | avg_purchases=1.0
+2026-03-14 21:29:02,838 - INFO - Cluster 3: 14 customers | avg_spent=2267 | avg_purchases=12.6
+2026-03-14 21:29:02,842 - INFO - Model saved: ai_engine/models/kmeans_20260314_212902.pkl
+2026-03-14 21:29:02,844 - INFO - Scaler saved: ai_engine/models/scaler_20260314_212902.pkl
+2026-03-14 21:29:02,847 - INFO - 
+[4/5] GENERATING CHARTS
+2026-03-14 21:29:02,849 - INFO - Generating dashboard charts...
+2026-03-14 21:29:03,376 - INFO - Saved: outputs/charts/01_cluster_distribution.png
+2026-03-14 21:29:03,830 - INFO - Saved: outputs/charts/02_avg_spent_per_cluster.png
+2026-03-14 21:29:04,322 - INFO - Saved: outputs/charts/03_spending_distribution.png
+2026-03-14 21:29:04,776 - INFO - Saved: outputs/charts/04_scatter.png
+2026-03-14 21:29:05,987 - INFO - Saved: outputs/charts/00_dashboard.png
+2026-03-14 21:29:05,987 - INFO - All charts saved to: outputs/charts/
+2026-03-14 21:29:05,987 - INFO - 
+[5/5] GETTING AI ADVICE
+2026-03-14 21:29:05,987 - INFO - Getting advice for 4 clusters...
+2026-03-14 21:29:05,987 - INFO - Asking Ollama about: Frequent low spenders...
+2026-03-14 21:29:52,487 - INFO - Got advice for Frequent low spenders
+2026-03-14 21:29:52,488 - INFO - Asking Ollama about: VIP...
+2026-03-14 21:30:36,277 - INFO - Got advice for VIP
+2026-03-14 21:30:36,278 - INFO - Asking Ollama about: At risk...
+2026-03-14 21:31:20,687 - INFO - Got advice for At risk
+2026-03-14 21:31:20,688 - INFO - Asking Ollama about: Middle tier...
+2026-03-14 21:31:59,776 - INFO - Got advice for Middle tier
+2026-03-14 21:31:59,778 - INFO - Advice saved to: outputs/advice/
+2026-03-14 21:31:59,779 - INFO - ============================================================
+2026-03-14 21:31:59,779 - INFO - PIPELINE COMPLETED SUCCESSFULLY
+2026-03-14 21:31:59,779 - INFO - ============================================================
+2026-03-15 17:51:29,583 - INFO - ============================================================
+2026-03-15 17:51:29,583 - INFO - INITIALIZING CUSTOMER PIPELINE
+2026-03-15 17:51:29,583 - INFO - ============================================================
+2026-03-15 17:51:29,583 - INFO - Pipeline initialized successfully
+2026-03-15 17:51:29,583 - INFO - 
+[1/5] LOADING CSV: data/customers.csv
+2026-03-15 17:51:29,583 - INFO - Loading CSV from: data/customers.csv
+2026-03-15 17:51:29,617 - INFO - Loaded 36 rows, 4 columns
+2026-03-15 17:51:29,617 - INFO - Loaded 36 rows, 4 columns
+2026-03-15 17:51:29,617 - INFO - 
+[2/5] CLEANING & TRANSFORMING
+2026-03-15 17:51:29,617 - INFO - Starting data cleaning process
+2026-03-15 17:51:29,617 - INFO - Initial shape: (36, 4)
+2026-03-15 17:51:29,617 - INFO - No missing values found
+2026-03-15 17:51:29,651 - INFO - Cleaning complete. Final shape: (36, 4)
+2026-03-15 17:51:29,653 - INFO - Starting feature engineering
+2026-03-15 17:51:29,653 - WARNING - Date column 'None' not found, defaulting to 0
+2026-03-15 17:51:29,657 - INFO - Added 'avg_purchase_amount' (mean: $219.97)
+2026-03-15 17:51:29,664 - INFO - Added value segments: {'High': 33, 'Medium': 3, 'Low': 0}
+2026-03-15 17:51:29,672 - INFO - Added 'purchase_frequency' (mean: 24.3)
+2026-03-15 17:51:29,672 - INFO - Built 10 features
+2026-03-15 17:51:29,678 - INFO - Saved features to: outputs/features_20260315_175129.csv
+2026-03-15 17:51:29,689 - INFO - 
+[3/5] TRAINING MODEL
+2026-03-15 17:51:29,695 - INFO - Training on features: ['age', 'total_purchases', 'total_spent', 'days_since_last_purchase', 'avg_purchase_amount', 'customer_lifetime_value', 'purchase_frequency']
+2026-03-15 17:51:34,969 - INFO - K=2, silhouette score: 0.2837
+2026-03-15 17:51:35,123 - INFO - K=3, silhouette score: 0.3427
+2026-03-15 17:51:35,206 - INFO - K=4, silhouette score: 0.3702
+2026-03-15 17:51:35,358 - INFO - K=5, silhouette score: 0.3408
+2026-03-15 17:51:35,450 - INFO - K=6, silhouette score: 0.3428
+2026-03-15 17:51:35,450 - INFO - Best K: 4 (score: 0.3702)
+2026-03-15 17:51:35,450 - INFO - Training KMeans with K=4
+2026-03-15 17:51:35,541 - INFO - 
+--- Cluster Summary ---
+2026-03-15 17:51:35,543 - INFO - Cluster 0: 11 customers | avg_spent=1149 | avg_purchases=34.6
+2026-03-15 17:51:35,543 - INFO - Cluster 1: 9 customers | avg_spent=4111 | avg_purchases=35.1
+2026-03-15 17:51:35,543 - INFO - Cluster 2: 2 customers | avg_spent=1716 | avg_purchases=1.0
+2026-03-15 17:51:35,549 - INFO - Cluster 3: 14 customers | avg_spent=2267 | avg_purchases=12.6
+2026-03-15 17:51:35,554 - INFO - Model saved: ai_engine/models/kmeans_20260315_175135.pkl
+2026-03-15 17:51:35,555 - INFO - Scaler saved: ai_engine/models/scaler_20260315_175135.pkl
+2026-03-15 17:51:35,559 - INFO - 
+[4/5] GENERATING CHARTS
+2026-03-15 17:51:35,563 - INFO - Generating dashboard charts...
+2026-03-15 17:51:36,990 - INFO - Saved: outputs/charts/01_cluster_distribution.png
+2026-03-15 17:51:37,436 - INFO - Saved: outputs/charts/02_avg_spent_per_cluster.png
+2026-03-15 17:51:37,925 - INFO - Saved: outputs/charts/03_spending_distribution.png
+2026-03-15 17:51:38,502 - INFO - Saved: outputs/charts/04_scatter.png
+2026-03-15 17:51:39,852 - INFO - Saved: outputs/charts/00_dashboard.png
+2026-03-15 17:51:39,853 - INFO - All charts saved to: outputs/charts/
+2026-03-15 17:51:39,853 - INFO - 
+[5/5] GETTING AI ADVICE
+2026-03-15 17:51:39,853 - INFO - Getting advice for 4 clusters...
+2026-03-15 17:51:39,853 - INFO - Asking Ollama about: Frequent low spenders...
+2026-03-15 17:51:44,001 - ERROR - Ollama is not running — start it with: ollama serve
+2026-03-15 17:51:44,001 - WARNING - No advice received for Frequent low spenders
+2026-03-15 17:51:44,001 - INFO - Asking Ollama about: VIP...
+2026-03-15 17:51:48,088 - ERROR - Ollama is not running — start it with: ollama serve
+2026-03-15 17:51:48,088 - WARNING - No advice received for VIP
+2026-03-15 17:51:48,088 - INFO - Asking Ollama about: At risk...
+2026-03-15 17:51:52,152 - ERROR - Ollama is not running — start it with: ollama serve
+2026-03-15 17:51:52,152 - WARNING - No advice received for At risk
+2026-03-15 17:51:52,152 - INFO - Asking Ollama about: Middle tier...
+2026-03-15 17:51:56,224 - ERROR - Ollama is not running — start it with: ollama serve
+2026-03-15 17:51:56,225 - WARNING - No advice received for Middle tier
+2026-03-15 17:51:56,227 - INFO - ============================================================
+2026-03-15 17:51:56,227 - INFO - PIPELINE COMPLETED SUCCESSFULLY
+2026-03-15 17:51:56,229 - INFO - ============================================================

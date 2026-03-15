@@ -1,0 +1,66 @@
+# Features Configuration
+# File: config/features_config.yaml
+
+# Feature definitions
+feature_definitions:
+  days_since_last_purchase:
+    type: "numeric"
+    description: "Days since customer's last purchase"
+    source_column: "last_purchase_date"
+    required: false
+    
+  avg_purchase_amount:
+    type: "numeric"
+    description: "Average amount spent per purchase"
+    calculation: "total_spent / total_purchases"
+    required: false
+    
+  customer_lifetime_value:
+    type: "numeric"
+    description: "Total amount spent by customer"
+    source_column: "total_spent"
+    required: false
+    
+  purchase_frequency:
+    type: "numeric"
+    description: "Number of purchases made"
+    source_column: "total_purchases"
+    required: false
+    
+  purchase_regularity:
+    type: "numeric"
+    description: "Regularity of purchases (0-1 scale)"
+    calculation: "simulated"
+    required: false
+    
+  age:
+    type: "numeric"
+    description: "Customer age"
+    source_column: "age"
+    required: false
+
+# Feature groups for different models
+feature_groups:
+  basic_features:
+    - "days_since_last_purchase"
+    - "avg_purchase_amount"
+    - "purchase_frequency"
+    
+  advanced_features:
+    - "customer_lifetime_value"
+    - "purchase_regularity"
+    - "age"
+    
+  all_features:
+    - "days_since_last_purchase"
+    - "avg_purchase_amount"
+    - "customer_lifetime_value"
+    - "purchase_frequency"
+    - "purchase_regularity"
+    - "age"
+
+# Target columns for different prediction tasks
+targets:
+  churn_prediction: "will_churn"  # Binary: 0 or 1
+  next_purchase_amount: "next_purchase_amount"  # Numeric
+  customer_segment: "segment"  # Categorical

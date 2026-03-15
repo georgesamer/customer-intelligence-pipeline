@@ -1,0 +1,61 @@
+# Pipeline Configuration
+# File: config/pipeline_config.yaml
+
+# General settings
+general:
+  project_name: "Customer Intelligence Pipeline"
+  version: "1.0.0"
+  environment: "development"  # development, staging, production
+
+# Data ingestion settings
+ingestion:
+  supported_formats: ["csv", "json"]
+  encoding: "utf-8"
+  date_columns: ["last_purchase_date", "signup_date"]
+  
+# Data cleaning settings
+cleaning:
+  handle_missing: true
+  missing_strategy:
+    numeric: "mean"        # mean, median, constant, drop
+    categorical: "unknown"  # value to fill with
+  remove_duplicates: true
+  remove_outliers: true
+  outlier_method: "iqr"     # iqr, zscore
+  outlier_threshold: 3.0    # IQR multiplier or z-score threshold
+  
+# Feature engineering settings
+features:
+  create_days_since_last_purchase: true
+  create_avg_purchase_amount: true
+  create_customer_value_segments: true
+  create_purchase_frequency: true
+  create_purchase_regularity: true
+  
+  # Column mappings (actual column names in your data)
+  column_mappings:
+    customer_id: "customer_id"
+    total_purchases: "total_purchases"
+    total_spent: "total_spent"
+    last_purchase_date: null
+    signup_date: "signup_date"
+    age: "age"
+  
+  # Value segments thresholds
+  value_segments:
+    low: 0
+    medium: 100
+    high: 500
+    
+# Export settings
+export:
+  default_format: "csv"      # csv, json
+  include_sample: true
+  sample_size: 5
+  compress_output: false
+  
+# Logging settings
+logging:
+  level: "INFO"              # DEBUG, INFO, WARNING, ERROR
+  save_reports: true
+  log_to_file: true

@@ -1,0 +1,4 @@
+{
+  "model": "ai_engine/models/kmeans_20260315_175135.pkl",
+  "scaler": "ai_engine/models/scaler_20260315_175135.pkl"
+}
