@@ -170,3 +170,33 @@ Advice:
 - VIP-only Events: Invitation-only experiences to reinforce the relationship.
 Risk: Loyalty fatigue — refresh perks regularly to avoid complacency.
 ```
+---
+ 
+## Work with us
+ 
+Have customer data and want insights? We offer two options:
+ 
+- **Send us your data** — we run the pipeline and deliver a full segmentation report with AI-powered recommendations
+- **We deploy the tool for you** — your team uploads data through a simple interface and gets results instantly
+ 
+---
+ 
+## Built by
+ 
+| Name | Role |
+|---|---|
+| [Tasbeeh Ahmed](mailto:tasbeehahmed085@gmail.com) | Data Pipeline Engineer |
+| [George Essam](mailto:georgesamer05@gmail.com) | AI / ML Engineer |
+ 
+---
+ 
+## Contact
+ 
+- tasbeehahmed085@gmail.com
+- georgesamer05@gmail.com
+ 
+---
+ 
+## License
+ 
+MIT License — free to use, modify, and distribute.
