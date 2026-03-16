@@ -135,6 +135,10 @@ outputs/
     └── advice.txt               # Human-readable advisory report
 ```
 
+## Dashboard preview
+
+![Customer Intelligence Dashboard](assets/00_dashboard.png)
+
 ---
 
 ## Tech stack
